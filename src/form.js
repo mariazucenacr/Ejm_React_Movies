@@ -1,3 +1,4 @@
+//creamos el componente de form 
 import React from "react";
 
 //vamos a recibir la propiedad movie
@@ -7,7 +8,7 @@ export default function Form(props) {
   return (
     <form>
       <h3>{movie.name}</h3>
-      <button> - </button>0<button> + </button>
+      <button> - </button> 0 <button> + </button>
     </form>
   );
 }
