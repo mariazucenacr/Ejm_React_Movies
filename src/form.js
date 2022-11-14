@@ -9,7 +9,9 @@ export default function Form(props) {
   return (
     <form>
       <h3>{movie.name}</h3>
-      <button> - </button> 0 <button> + </button>
+      <button type='button'> - </button> 
+      0 
+      <button type='button'> + </button>
     </form>
   );
 }
