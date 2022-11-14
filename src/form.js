@@ -17,7 +17,8 @@ const [quantity, setQuantity] = React.useState(0);
   return (
     <form>
       <h3>{movie.name}</h3>
-      <button type='button' onClick= {() => setQuantity(quantity-1)}> - </button> 
+      <button type='button' onClick= {() => setQuantity(quantity-1)}
+      disabled={quantity <=0}> - </button> 
      {quantity}
       <button type='button' onClick= {() => setQuantity(quantity+1)}> + </button>
     </form>
