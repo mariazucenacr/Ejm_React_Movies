@@ -19,8 +19,7 @@ const [quantity, setQuantity] = React.useState(0);
       <h3>{movie.name}</h3>
       <button type='button'> - </button> 
      {quantity}
-      <button type='button' onclick = {
-        () => setQuantity(quantity+1)}> + </button>
+      <button type='button' onClick= {() => setQuantity(quantity+1)}> + </button>
     </form>
   );
 }
