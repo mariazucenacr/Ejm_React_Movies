@@ -1,4 +1,5 @@
 //creamos el componente de form 
+//para la parte de peliculas
 import React from "react";
 
 //vamos a recibir la propiedad movie
